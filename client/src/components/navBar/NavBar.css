@@ -1,0 +1,27 @@
+.container-link {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: -8px;
+  z-index: 2;
+}
+
+.link {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.link:hover {
+  background-color: rgba(74, 7, 136, 0.3);
+  padding: 10px;
+  border: thin solid transparent;
+  border-radius: 40px;
+}

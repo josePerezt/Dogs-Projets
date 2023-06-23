@@ -1,0 +1,14 @@
+.btn-next {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0 solid transparent;
+  background-image: linear-gradient(45deg, #000, #9f54d1, #000);
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-next:hover {
+  transform: translateY(10%);
+}

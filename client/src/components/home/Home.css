@@ -1,0 +1,14 @@
+.home-filtros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.warning {
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
