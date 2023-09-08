@@ -8,18 +8,21 @@ const getAllBreeds = async () => {
       "x-api-key": API_KEY,
     },
   });
-  const dogData = data.map(
-    ({ id, image, name, height, weight, life_span, temperament }) => ({
+
+  const dogData = data.map((dog) => {
+    const { id, name, life_span, temperament, weight, height, origin, image } =
+      dog;
+    return {
       id,
-      image: image.url,
       name,
-      height: height.metric,
-      weight: weight.metric,
       life_span,
       temperament,
-      createBD: false,
-    })
-  );
+      weight: weight.metric,
+      height: height.metric,
+      origin,
+      image: image.url,
+    };
+  });
   return dogData;
 };
 

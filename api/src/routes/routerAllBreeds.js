@@ -8,6 +8,7 @@ routerAllBreeds.get("/dogs", async (req, res) => {
   try {
     const allDogsBD = await getAllBreedsDB();
     const allDogsApi = await getAllBreeds();
+
     const allDogs = allDogsApi.concat(allDogsBD);
     res.status(200).json(allDogs);
   } catch (error) {
