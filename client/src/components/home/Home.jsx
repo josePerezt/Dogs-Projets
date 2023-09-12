@@ -14,7 +14,7 @@ function Cucha() {
 
   if (Dogsinicio.length === 0 && selectedTemperaments.length > 0) {
     return (
-      <div>
+      <div className="container-home">
         <div className="home-filtros">
           <Temperaments selectedTemperaments={selectedTemperaments} />
           <OrderAlpha />
