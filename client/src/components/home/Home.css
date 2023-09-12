@@ -1,5 +1,6 @@
 .container-home {
   background-image: linear-gradient(45deg, #7d4b79, #dfd5de, #66105f);
+  padding: 14px;
 }
 .home-filtros {
   display: flex;
