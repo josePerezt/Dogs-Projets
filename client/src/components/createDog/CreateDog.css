@@ -10,7 +10,8 @@ form {
   padding: 3px;
   border-radius: 10px;
   border: thin solid transparent;
-  box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 4px 10px 4px rgb(56, 3, 74, 0.7);
+
   margin-right: 15px;
   margin-top: 5px;
   height: 30px;
@@ -24,7 +25,8 @@ form {
   padding: 3px;
   border-radius: 10px;
   border: medium solid #138e26;
-  box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 4px 10px 4px rgb(56, 3, 74, 0.7);
+
   margin-right: 15px;
   margin-top: 5px;
   height: 30px;
@@ -53,7 +55,8 @@ form {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 4px 10px 4px rgb(56, 3, 74, 0.7);
+
   border-radius: 8px;
   border: thin solid transparent;
 }
@@ -135,7 +138,8 @@ form {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 4px 10px 4px rgb(56, 3, 74, 0.7);
+
   border-radius: 8px;
   border: thin solid transparent;
 }
